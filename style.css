@@ -1,0 +1,53 @@
+
+.nav-bg{
+    box-shadow: 2px 2px 10px 8px rgb(236, 243, 243);
+}
+
+.nav-item:hover{
+    cursor:pointer;
+    font-size: x-large;
+    color: rgb(253, 132, 46);
+}
+
+.btn {
+    transition: all ease 1ms;
+}
+
+.btn:hover {
+    background-color: rgb(191, 4, 4);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transform: translateY(-8px);
+}
+
+.creative{
+    box-shadow: 2px 2px 10px 6px rgba(12, 128, 199);
+}
+.sample{
+    box-shadow: 2px 2px 10px 6px whitesmoke;
+}
+
+.bg-img-1{
+    background-image: url(/Assessts/bg-img-customise.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.laptop-bg{
+    background-image: url(/Assessts/laptop-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.bg-contact{
+    background-image: url(/Assessts/contact-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
