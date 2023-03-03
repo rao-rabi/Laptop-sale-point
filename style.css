@@ -1,25 +1,23 @@
-
+@media screen and(max-width:425px){
+    *{
+        justify-content: center;
+        align-content: center;
+    }
+}
 .nav-bg{
     box-shadow: 2px 2px 10px 8px rgb(236, 243, 243);
 }
 
 .nav-item:hover{
     cursor:pointer;
-    font-size: x-large;
     color: rgb(253, 132, 46);
 }
-
-.btn {
-    transition: all ease 1ms;
+button{
+    background-color: yellow;
 }
 
-.btn:hover {
-    background-color: rgb(191, 4, 4);
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    transform: translateY(-8px);
+button:hover {
+    background-color: rgb(46, 219, 245);
 }
 
 .creative{
